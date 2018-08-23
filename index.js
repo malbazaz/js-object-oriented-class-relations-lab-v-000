@@ -17,5 +17,7 @@ class Passenger{
 }
 
 class Trip{
+  constructor(driver,passenger){
 
+  }
 }
