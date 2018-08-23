@@ -15,7 +15,9 @@ class Driver {
     })
   }
   passengers(){
-
+    return passengers.filter(pass =>{
+      return pass.trip === this.trip;
+    })
   }
 }
 
