@@ -60,9 +60,9 @@ class Trip{
     return store.drivers.filter(driver=>{
       return driver.id === this.driverId;
     })
-    return store.drivers.find(function(driver){
-      return driver.id === this.driverId;
-    })
+    // return store.drivers.find(function(driver){
+    //   return driver.id === this.driverId;
+    // })
   }
   passenger(){
     return store.passengers.find(function(pass){
