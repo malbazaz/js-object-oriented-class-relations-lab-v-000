@@ -8,3 +8,7 @@ class Driver {
     this.id = ++driverId;
   }
 }
+
+class Passenger{
+
+}
