@@ -58,7 +58,7 @@ class Trip{
   }
   driver(){
     return store.drivers.filter(driver=>{
-      return driver.id === this.driverId;
+      return  this.driverId === driver.id;
     })
     // return store.drivers.find(function(driver){
     //   return driver.id === this.driverId;
