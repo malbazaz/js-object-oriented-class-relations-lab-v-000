@@ -60,7 +60,7 @@ class Trip{
     return store.drivers.filter(driver=>{
       // debugger;
       return  this.driverId === driver.id;
-    })
+    }.bind(this))
     // return store.drivers.find(function(driver){
     //   return driver.id === this.driverId;
     // })
