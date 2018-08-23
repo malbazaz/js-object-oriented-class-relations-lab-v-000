@@ -58,6 +58,7 @@ class Trip{
   }
   driver(){
     return store.drivers.filter(driver=>{
+      debugger;
       return  this.driverId === driver.id;
     })
     // return store.drivers.find(function(driver){
