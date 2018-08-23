@@ -70,6 +70,6 @@ class Trip{
       debugger;
       return pass.id === this.passengerId;
     })
-  }
+  }.bind(this)
 
 }
