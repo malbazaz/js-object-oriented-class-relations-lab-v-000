@@ -66,6 +66,7 @@ class Trip{
   }
   passenger(){
     return store.passengers.find(function(pass){
+      debugger;
       return pass.id === this.passengerId;
     })
   }
