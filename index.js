@@ -51,4 +51,8 @@ class Trip{
       return driver.id === this.driverId;
     })
   }
+  passenger(){
+
+  }
+
 }
